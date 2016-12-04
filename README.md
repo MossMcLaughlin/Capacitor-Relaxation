@@ -14,6 +14,6 @@
 
 As you can see, each iteration depends only on the values surrounding each point, not on the points previous value.
 
-In general b[i][j] = a[i+1][j] + a[i-1][j] + a[i][j+1] + a[i][j-1], then all a[i][j] is set equal to b[i][j]
+In general,  b[i][j] = 0.25 *(a[i+1][j] + a[i-1][j] + a[i][j+1] + a[i][j-1], then all a[i][j] is set equal to b[i][j])
 
 This method uses two arrays, one that holds all your values after each completed iterations and one used to calulate values during each iteration.
