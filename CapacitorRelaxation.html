@@ -4,11 +4,25 @@
 	<title> Capacitor Relaxation Simulator </title>
 </head>
 <body>
-	<h1> Capacitor Relaxation </h1>                   
+	<h1 style="text-align:center;"> Capacitor Relaxation </h1>                   
 	<p>  Modeling electric potential can be done anaylytically by soving<a href ="https://en.wikipedia.org/wiki/Laplace's_equation"> Laplace's equation.</a> This requires boundry conditions and can prove very difficult. A useful method for finding electric potential is by matching the potential at all points to the average of the potentials around it. Here is a model placing two opposite charged counducting plates in a grounded box. </p>
+	<p style='text-align:center'><table>
+	<tr><td>
+		<ul>
+			<li>Capacitor Width:<input type='range' min ='10' max='80' id='width' value='50'></li>
+	
+			<li>Capacitor Height:<input type='range' min='5' max='25' id='height' value='10'></li>
+	
+			<li>Gap: <input type='range' min='5' max='40' id='gap' value='8'></li>
+			<li>Number of iterations: <input type='range' min='0' max='5000' id='it'value='1000'></li>
+		</ul></td>
 
-
-	<canvas id="myCanvas" width="300" height="300" style="border:1px solid #d3d3d3;">
+		<td><canvas id="myCanvas" width="300" height="300" style=    "border:1px sol    id #d3d3d3;"></td>
+	</tr></table>
+	</p>
+	<br>
+	<button onclick="__runit__()"> Show Potential! </button>
+	<p id="numit"></p>
 
 	<script src="CapacitorRelaxation.js"></script> 
 
