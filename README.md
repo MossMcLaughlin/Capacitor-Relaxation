@@ -2,7 +2,7 @@
 
   Calculating electric potential can be done analytically by solving Laplace's equation. The solutions and difficulty of finding them varies greatly with the geometry of the system. By defining boundry conditions we can find an approximate solution by a computational method. Holding certain regions at equipotentials (representing conductors) we can let the value of the potential propigate through empty space by matching each point to the average of the potentials around it.
   
-  Here is an examples:
+  Here is an example:
   
   note, treat the top as grounded and sides (potential always = 0) and the bottom as a conductor held at potential 1.
   
